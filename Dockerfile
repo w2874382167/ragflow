@@ -31,6 +31,16 @@ RUN --mount=type=bind,from=infiniflow/ragflow_deps:latest,source=/,target=/deps 
 
 ENV TIKA_SERVER_JAR="file:///ragflow/tika-server-standard-3.0.0.jar"
 ENV DEBIAN_FRONTEND=noninteractive
+RUN apt update && \
+    apt install -y locales && \
+    locale-gen zh_CN.UTF-8 && \
+    update-locale LANG=zh_CN.UTF-8 && \
+    echo "export LANG=zh_CN.UTF-8" >> /etc/profile && \
+    echo "已配置中文环境"
+
+ENV LANG=zh_CN.UTF-8
+ENV LANGUAGE=zh_CN:zh
+ENV LC_ALL=zh_CN.UTF-8
 
 RUN --mount=type=cache,id=ragflow_apt,target=/var/cache/apt,sharing=locked \
     if [ "$NEED_MIRROR" == "1" ]; then \

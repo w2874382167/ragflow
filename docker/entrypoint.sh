@@ -3,16 +3,17 @@
 set -e
 
 function usage() {
-    echo "Usage: $0 [--disable-webserver] [--disable-taskexecutor] [--consumer-no-beg=<num>] [--consumer-no-end=<num>] [--workers=<num>] [--host-id=<string>]"
+    echo "用法: $0 [--disable-webserver] [--disable-taskexecutor] [--consumer-no-beg=<num>] [--consumer-no-end=<num>] [--workers=<num>] [--host-id=<string>]"
     echo
-    echo "  --disable-webserver             Disables the web server (nginx + ragflow_server)."
-    echo "  --disable-taskexecutor          Disables task executor workers."
-    echo "  --consumer-no-beg=<num>         Start range for consumers (if using range-based)."
-    echo "  --consumer-no-end=<num>         End range for consumers (if using range-based)."
-    echo "  --workers=<num>                 Number of task executors to run (if range is not used)."
-    echo "  --host-id=<string>              Unique ID for the host (defaults to \`hostname\`)."
+    echo "参数说明："
+    echo "  --disable-webserver      关闭 Web 服务（nginx 和 ragflow_server）"
+    echo "  --disable-taskexecutor   关闭任务执行器"
+    echo "  --consumer-no-beg        消费者起始编号（配合 consumer-no-end 使用）"
+    echo "  --consumer-no-end        消费者结束编号（开区间）"
+    echo "  --workers                固定数量的任务执行器（不使用编号范围）"
+    echo "  --host-id                指定唯一主机 ID（默认使用主机名）"
     echo
-    echo "Examples:"
+    echo "示例："
     echo "  $0 --disable-taskexecutor"
     echo "  $0 --disable-webserver --consumer-no-beg=0 --consumer-no-end=5"
     echo "  $0 --disable-webserver --workers=2 --host-id=myhost123"
