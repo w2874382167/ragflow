@@ -6,7 +6,6 @@ services:
     build:
       context: ..
       dockerfile: Dockerfile
-      target: frontend-builder  # 可选，如果你用 multi-stage 构建
     volumes:
       - ../web:/app/web
     working_dir: /app/web

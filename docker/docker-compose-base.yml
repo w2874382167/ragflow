@@ -164,6 +164,8 @@ volumes:
     driver: local
   neo4j_data: 
     driver: local
+  neo4j_logs:
+    driver: local
 
 networks:
   ragflow:
