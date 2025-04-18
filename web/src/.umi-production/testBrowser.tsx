@@ -3,13 +3,14 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from '/home/zhuchen/Program/DaEr/ragflow/web/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from '/root/project/ragflow/web/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
-import '/home/zhuchen/Program/DaEr/ragflow/web/src/global.less';
+
+import '/root/project/ragflow/web/src/global.less';
 const publicPath = '/';
 const runtimePublicPath = false;
 

@@ -1,0 +1,210 @@
+2025-04-17 23:17:45,138 INFO     54575 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-17 23:17:56,577 INFO     54575 found 0 gpus
+2025-04-17 23:18:08,528 INFO     54575 init database on cluster mode successfully
+2025-04-18 00:04:57,150 INFO     82843 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 00:05:00,879 INFO     82843 found 0 gpus
+2025-04-18 00:05:04,633 INFO     82843 init database on cluster mode successfully
+2025-04-18 00:07:21,184 WARNING  82843 Returning existing local_dir `/root/project/ragflow/rag/res/deepdoc` as remote repo cannot be accessed in `snapshot_download` ((MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/InfiniFlow/deepdoc/revision/main (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7e102e78b460>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"), '(Request ID: 3ca0807a-269f-45b6-ba29-c3c3dfd3804a)')).
+2025-04-18 00:12:07,160 INFO     88492 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 00:12:10,164 INFO     88492 found 0 gpus
+2025-04-18 00:12:13,867 INFO     88492 init database on cluster mode successfully
+2025-04-18 00:12:19,193 WARNING  88492 /root/project/ragflow/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py:1204: UserWarning: `local_dir_use_symlinks` parameter is deprecated and will be ignored. The process to download files to a local folder has been updated and do not rely on symlinks anymore. You only need to pass a destination folder as`local_dir`.
+For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/download#download-files-to-local-folder.
+  warnings.warn(
+
+2025-04-18 06:36:56,158 INFO     308405 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 06:39:43,933 INFO     310088 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 06:39:47,070 INFO     310088 found 0 gpus
+2025-04-18 06:39:50,423 INFO     310088 init database on cluster mode successfully
+2025-04-18 06:44:29,930 INFO     312722 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 06:44:32,855 INFO     312722 found 0 gpus
+2025-04-18 06:44:37,912 INFO     312722 init database on cluster mode successfully
+2025-04-18 06:44:41,179 INFO     312722 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 06:44:41,367 INFO     312722 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 06:51:59,738 INFO     317349 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 06:52:02,630 INFO     317349 found 0 gpus
+2025-04-18 06:52:06,208 INFO     317349 init database on cluster mode successfully
+2025-04-18 06:52:09,907 INFO     317349 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 06:52:10,107 INFO     317349 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 07:30:39,553 INFO     339970 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 07:30:43,073 INFO     339970 found 0 gpus
+2025-04-18 07:30:46,414 INFO     339970 init database on cluster mode successfully
+2025-04-18 07:30:49,702 INFO     339970 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 07:30:49,894 INFO     339970 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 08:09:53,955 INFO     362460 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 08:09:56,713 INFO     362460 found 0 gpus
+2025-04-18 08:10:00,024 INFO     362460 init database on cluster mode successfully
+2025-04-18 08:10:03,383 INFO     362460 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 08:10:03,589 INFO     362460 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 08:21:55,282 INFO     368965 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 08:21:58,093 INFO     368965 found 0 gpus
+2025-04-18 08:22:01,758 INFO     368965 init database on cluster mode successfully
+2025-04-18 08:22:05,428 INFO     368965 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 08:22:05,664 INFO     368965 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 08:43:40,988 INFO     381845 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 08:43:43,895 INFO     381845 found 0 gpus
+2025-04-18 08:43:47,268 INFO     381845 init database on cluster mode successfully
+2025-04-18 08:43:50,538 INFO     381845 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 08:43:50,745 INFO     381845 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 09:06:43,726 INFO     396547 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 09:06:46,610 INFO     396547 found 0 gpus
+2025-04-18 09:06:49,968 INFO     396547 init database on cluster mode successfully
+2025-04-18 09:06:53,487 INFO     396547 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 09:06:53,685 INFO     396547 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 09:09:14,920 INFO     397803 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 09:09:17,892 INFO     397803 found 0 gpus
+2025-04-18 09:09:21,229 INFO     397803 init database on cluster mode successfully
+2025-04-18 09:09:24,800 INFO     397803 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 09:09:25,002 INFO     397803 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 09:34:13,892 INFO     412280 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 09:34:16,964 INFO     412280 found 0 gpus
+2025-04-18 09:34:20,641 INFO     412280 init database on cluster mode successfully
+2025-04-18 09:34:24,575 INFO     412280 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 09:34:24,775 INFO     412280 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 09:41:32,981 INFO     416336 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 09:41:35,760 INFO     416336 found 0 gpus
+2025-04-18 09:41:39,178 INFO     416336 init database on cluster mode successfully
+2025-04-18 09:41:42,852 INFO     416336 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 09:41:43,052 INFO     416336 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 10:06:02,471 INFO     430751 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 10:06:05,510 INFO     430751 found 0 gpus
+2025-04-18 10:06:10,665 INFO     430751 init database on cluster mode successfully
+2025-04-18 10:06:13,996 INFO     430751 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 10:06:14,185 INFO     430751 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 10:16:28,578 INFO     436764 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 10:16:32,063 INFO     436764 found 0 gpus
+2025-04-18 10:16:36,606 INFO     436764 init database on cluster mode successfully
+2025-04-18 10:16:39,900 INFO     436764 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 10:16:40,117 INFO     436764 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 10:20:59,638 INFO     439470 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 10:21:02,681 INFO     439470 found 0 gpus
+2025-04-18 10:21:07,802 INFO     439470 init database on cluster mode successfully
+2025-04-18 10:21:11,543 INFO     439470 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 10:21:11,751 INFO     439470 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 10:30:36,073 INFO     445165 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 10:30:39,156 INFO     445165 found 0 gpus
+2025-04-18 10:30:42,516 INFO     445165 init database on cluster mode successfully
+2025-04-18 10:30:45,833 INFO     445165 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 10:30:46,027 INFO     445165 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 11:07:17,397 INFO     458529 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 11:07:20,541 INFO     458529 found 0 gpus
+2025-04-18 11:07:24,328 INFO     458529 init database on cluster mode successfully
+2025-04-18 11:07:28,111 INFO     458529 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 11:07:28,321 INFO     458529 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 11:07:39,520 INFO     458529 
+        ____   ___    ______ ______ __               
+       / __ \ /   |  / ____// ____// /____  _      __
+      / /_/ // /| | / / __ / /_   / // __ \| | /| / /
+     / _, _// ___ |/ /_/ // __/  / // /_/ /| |/ |/ / 
+    /_/ |_|/_/  |_|\____//_/    /_/ \____/ |__/|__/                             
+
+    
+2025-04-18 11:07:39,537 INFO     458529 RAGFlow version: 0291b85 full
+2025-04-18 11:07:39,537 INFO     458529 project base: /root/project/ragflow
+2025-04-18 11:07:39,537 INFO     458529 Current configs, from /root/project/ragflow/conf/service_conf.yaml:
+	ragflow: {'host': '127.0.0.1', 'http_port': 9380}
+	mysql: {'name': 'rag_flow', 'user': 'root', 'password': '********', 'host': '127.0.0.1', 'port': 3306, 'max_connections': 100, 'stale_timeout': 30}
+	minio: {'user': 'rag_flow', 'password': '********', 'host': '127.0.0.1:9000'}
+	es: {'hosts': 'http://127.0.0.1:9200', 'username': 'elastic', 'password': '********'}
+	infinity: {'uri': '127.0.0.1:23817', 'db_name': 'default_db'}
+	redis: {'db': 1, 'password': '********', 'host': '127.0.0.1:6379'}
+	neo4j: {'host': '127.0.0.1', 'http_port': 7474, 'bolt_port': 7687, 'user': 'neo4j', 'password': '********'}
+2025-04-18 11:07:39,540 INFO     458529 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 11:07:39,678 INFO     458529 GET http://127.0.0.1:9200/ [status:200 duration:0.136s]
+2025-04-18 11:07:39,692 INFO     458529 HEAD http://127.0.0.1:9200/ [status:200 duration:0.013s]
+2025-04-18 11:07:39,695 INFO     458529 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 11:07:39,709 WARNING  458529 Load term.freq FAIL!
+2025-04-18 11:07:39,719 WARNING  458529 Realtime synonym is disabled, since no redis connection.
+2025-04-18 11:07:39,730 WARNING  458529 Load term.freq FAIL!
+2025-04-18 11:07:39,738 WARNING  458529 Realtime synonym is disabled, since no redis connection.
+2025-04-18 11:07:39,739 INFO     458529 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 11:07:39,739 INFO     458529 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 11:07:51,046 INFO     458529 init web data success:4.081532716751099
+2025-04-18 11:07:51,048 INFO     458529 update_progress lock_value: 253b8b0b-3d09-47d4-8f55-db2c68a8fb5e
+2025-04-18 11:07:51,048 INFO     458529 RAGFlow HTTP server start...
+2025-04-18 11:07:51,052 INFO     458529 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9380
+2025-04-18 11:07:51,052 INFO     458529 [33mPress CTRL+C to quit[0m
+2025-04-18 11:08:09,923 INFO     458529 Received interrupt signal, shutting down...
+2025-04-18 11:08:10,324 INFO     458529 Received interrupt signal, shutting down...
+2025-04-18 11:09:00,989 INFO     459532 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 11:09:04,195 INFO     459532 found 0 gpus
+2025-04-18 11:09:07,909 INFO     459532 init database on cluster mode successfully
+2025-04-18 11:09:11,615 INFO     459532 load_model /root/project/ragflow/rag/res/deepdoc/det.onnx uses CPU
+2025-04-18 11:09:11,820 INFO     459532 load_model /root/project/ragflow/rag/res/deepdoc/rec.onnx uses CPU
+2025-04-18 11:09:22,000 INFO     459532 
+        ____   ___    ______ ______ __               
+       / __ \ /   |  / ____// ____// /____  _      __
+      / /_/ // /| | / / __ / /_   / // __ \| | /| / /
+     / _, _// ___ |/ /_/ // __/  / // /_/ /| |/ |/ / 
+    /_/ |_|/_/  |_|\____//_/    /_/ \____/ |__/|__/                             
+
+    
+2025-04-18 11:09:22,004 INFO     459532 RAGFlow version: 0291b85 full
+2025-04-18 11:09:22,005 INFO     459532 project base: /root/project/ragflow
+2025-04-18 11:09:22,005 INFO     459532 Current configs, from /root/project/ragflow/conf/service_conf.yaml:
+	ragflow: {'host': '127.0.0.1', 'http_port': 9380}
+	mysql: {'name': 'rag_flow', 'user': 'root', 'password': '********', 'host': '127.0.0.1', 'port': 3306, 'max_connections': 100, 'stale_timeout': 30}
+	minio: {'user': 'rag_flow', 'password': '********', 'host': '127.0.0.1:9000'}
+	es: {'hosts': 'http://127.0.0.1:9200', 'username': 'elastic', 'password': '********'}
+	infinity: {'uri': '127.0.0.1:23817', 'db_name': 'default_db'}
+	redis: {'db': 1, 'password': '********', 'host': '127.0.0.1:6379'}
+	neo4j: {'host': '127.0.0.1', 'http_port': 7474, 'bolt_port': 7687, 'user': 'neo4j', 'password': '********'}
+2025-04-18 11:09:22,007 INFO     459532 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 11:09:22,022 INFO     459532 GET http://127.0.0.1:9200/ [status:200 duration:0.011s]
+2025-04-18 11:09:22,032 INFO     459532 HEAD http://127.0.0.1:9200/ [status:200 duration:0.009s]
+2025-04-18 11:09:22,033 INFO     459532 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 11:09:22,042 WARNING  459532 Load term.freq FAIL!
+2025-04-18 11:09:22,050 WARNING  459532 Realtime synonym is disabled, since no redis connection.
+2025-04-18 11:09:22,061 WARNING  459532 Load term.freq FAIL!
+2025-04-18 11:09:22,068 WARNING  459532 Realtime synonym is disabled, since no redis connection.
+2025-04-18 11:09:22,068 INFO     459532 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 11:09:22,069 INFO     459532 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 11:09:26,248 INFO     459532 init web data success:4.049650430679321
+2025-04-18 11:09:26,250 INFO     459532 update_progress lock_value: 26ea8483-9a1a-4cee-bfd7-e0a80079e5d3
+2025-04-18 11:09:26,250 INFO     459532 RAGFlow HTTP server start...
+2025-04-18 11:09:26,253 INFO     459532 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9380
+2025-04-18 11:09:26,254 INFO     459532 [33mPress CTRL+C to quit[0m
+2025-04-18 11:09:59,748 INFO     459532 Received interrupt signal, shutting down...
+2025-04-18 11:10:00,002 INFO     459532 Received interrupt signal, shutting down...
+2025-04-18 11:10:00,179 INFO     459532 Received interrupt signal, shutting down...
+2025-04-18 12:27:24,387 INFO     480061 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 12:27:24,389 INFO     480061 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 12:27:24,478 INFO     480061 GET http://127.0.0.1:9200/ [status:200 duration:0.087s]
+2025-04-18 12:27:24,484 INFO     480061 HEAD http://127.0.0.1:9200/ [status:200 duration:0.005s]
+2025-04-18 12:27:24,485 INFO     480061 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 12:27:24,495 WARNING  480061 Load term.freq FAIL!
+2025-04-18 12:27:24,503 WARNING  480061 Realtime synonym is disabled, since no redis connection.
+2025-04-18 12:27:24,513 WARNING  480061 Load term.freq FAIL!
+2025-04-18 12:27:24,521 WARNING  480061 Realtime synonym is disabled, since no redis connection.
+2025-04-18 12:27:24,521 INFO     480061 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 12:27:24,522 INFO     480061 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 12:27:28,769 INFO     480061 init web data success:4.116612195968628
+2025-04-18 12:27:28,774 INFO     480061 update_progress lock_value: 01974374-9263-4c50-9a27-a056aa25bea4
+2025-04-18 12:46:42,160 INFO     484663 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 12:46:42,162 INFO     484663 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 12:46:42,171 INFO     484663 GET http://127.0.0.1:9200/ [status:200 duration:0.007s]
+2025-04-18 12:46:42,177 INFO     484663 HEAD http://127.0.0.1:9200/ [status:200 duration:0.004s]
+2025-04-18 12:46:42,177 INFO     484663 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 12:46:42,188 WARNING  484663 Load term.freq FAIL!
+2025-04-18 12:46:42,196 WARNING  484663 Realtime synonym is disabled, since no redis connection.
+2025-04-18 12:46:42,207 WARNING  484663 Load term.freq FAIL!
+2025-04-18 12:46:42,215 WARNING  484663 Realtime synonym is disabled, since no redis connection.
+2025-04-18 12:46:42,215 INFO     484663 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 12:46:42,215 INFO     484663 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 12:46:46,435 INFO     484663 init web data success:4.0783398151397705
+2025-04-18 12:46:46,440 INFO     484663 update_progress lock_value: f2da209d-c12b-4baf-9b54-f2e70aea6808
+2025-04-18 14:38:47,837 INFO     516339 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 14:38:47,841 INFO     516339 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 14:38:47,930 INFO     516339 GET http://127.0.0.1:9200/ [status:200 duration:0.086s]
+2025-04-18 14:38:47,934 INFO     516339 HEAD http://127.0.0.1:9200/ [status:200 duration:0.004s]
+2025-04-18 14:38:47,936 INFO     516339 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 14:38:47,947 WARNING  516339 Load term.freq FAIL!
+2025-04-18 14:38:47,956 WARNING  516339 Realtime synonym is disabled, since no redis connection.
+2025-04-18 14:38:47,966 WARNING  516339 Load term.freq FAIL!
+2025-04-18 14:38:47,973 WARNING  516339 Realtime synonym is disabled, since no redis connection.
+2025-04-18 14:38:47,974 INFO     516339 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 14:38:47,974 INFO     516339 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 14:38:52,146 INFO     516339 init web data success:4.043076515197754
+2025-04-18 14:38:52,154 INFO     516339 update_progress lock_value: 7623ff54-68e6-4718-86a0-6e0f938e2dc2

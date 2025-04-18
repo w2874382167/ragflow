@@ -1,0 +1,17 @@
+/*!
+ * @antv/g-dom-mutation-observer-api
+ * @description A simple implementation of DOM MutationObserver API.
+ * @version 2.0.34
+ * @date 4/14/2025, 2:53:58 AM
+ * @author AntVis
+ * @docs https://g.antv.antgroup.com/
+ */
+
+/*!
+ * @antv/g-plugin-canvas-path-generator
+ * @description A G plugin of path generator with Canvas2D API
+ * @version 2.1.18
+ * @date 4/14/2025, 2:54:31 AM
+ * @author AntVis
+ * @docs https://g.antv.antgroup.com/
+ */

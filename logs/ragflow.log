@@ -1,0 +1,142 @@
+*** Starting uWSGI 2.0.29 (64bit) on [Fri Apr 18 12:46:17 2025] ***
+compiled with version: 13.3.0 on 18 April 2025 03:16:36
+os: Linux-6.8.0-55-generic #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025
+nodename: iZbp168b9bdqlpesvopw9oZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /root/project/ragflow
+detected binary path: /root/project/ragflow/.venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/project/ragflow/
+your processes number limit is 60035
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9380 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.17 (main, Apr  9 2025, 08:54:14) [GCC 13.3.0]
+Python main interpreter initialized at 0x58bcf05f2a20
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 501072 bytes (489 KB) for 20 cores
+*** Operational MODE: preforking+threaded ***
+2025-04-18 12:46:42,160 INFO     484663 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 12:46:42,162 INFO     484663 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 12:46:42,171 INFO     484663 GET http://127.0.0.1:9200/ [status:200 duration:0.007s]
+2025-04-18 12:46:42,177 INFO     484663 HEAD http://127.0.0.1:9200/ [status:200 duration:0.004s]
+2025-04-18 12:46:42,177 INFO     484663 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 12:46:42,188 WARNING  484663 Load term.freq FAIL!
+2025-04-18 12:46:42,196 WARNING  484663 Realtime synonym is disabled, since no redis connection.
+2025-04-18 12:46:42,207 WARNING  484663 Load term.freq FAIL!
+2025-04-18 12:46:42,215 WARNING  484663 Realtime synonym is disabled, since no redis connection.
+2025-04-18 12:46:42,215 INFO     484663 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 12:46:42,215 INFO     484663 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 12:46:46,435 INFO     484663 init web data success:4.0783398151397705
+WSGI app 0 (mountpoint='') ready in 29 seconds on interpreter 0x58bcf05f2a20 pid: 484663 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 484663)
+2025-04-18 12:46:46,440 INFO     484663 update_progress lock_value: f2da209d-c12b-4baf-9b54-f2e70aea6808
+spawned uWSGI worker 1 (pid: 484926, cores: 10)
+spawned uWSGI worker 2 (pid: 484927, cores: 10)
+*** Starting uWSGI 2.0.29 (64bit) on [Fri Apr 18 14:16:51 2025] ***
+compiled with version: 13.3.0 on 18 April 2025 03:16:36
+os: Linux-6.8.0-55-generic #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025
+nodename: iZbp168b9bdqlpesvopw9oZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /root/project/ragflow
+detected binary path: /root/project/ragflow/.venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/project/ragflow/
+your processes number limit is 60035
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9380).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.29 (64bit) on [Fri Apr 18 14:28:54 2025] ***
+compiled with version: 13.3.0 on 18 April 2025 03:16:36
+os: Linux-6.8.0-55-generic #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025
+nodename: iZbp168b9bdqlpesvopw9oZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /root/project/ragflow
+detected binary path: /root/project/ragflow/.venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/project/ragflow/
+your processes number limit is 60035
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9380).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.29 (64bit) on [Fri Apr 18 14:38:22 2025] ***
+compiled with version: 13.3.0 on 18 April 2025 03:16:36
+os: Linux-6.8.0-55-generic #57-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 12 23:42:21 UTC 2025
+nodename: iZbp168b9bdqlpesvopw9oZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /root/project/ragflow
+detected binary path: /root/project/ragflow/.venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/project/ragflow/
+your processes number limit is 60035
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9380 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37279 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.10.17 (main, Apr  9 2025, 08:54:14) [GCC 13.3.0]
+Python main interpreter initialized at 0x5bf29617c900
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 501072 bytes (489 KB) for 20 cores
+*** Operational MODE: preforking+threaded ***
+2025-04-18 14:38:47,837 INFO     516339 ragflow_server log path: /root/project/ragflow/logs/ragflow_server.log, log levels: {'peewee': 'WARNING', 'pdfminer': 'WARNING', 'root': 'INFO'}
+2025-04-18 14:38:47,841 INFO     516339 Use Elasticsearch http://127.0.0.1:9200 as the doc engine.
+2025-04-18 14:38:47,930 INFO     516339 GET http://127.0.0.1:9200/ [status:200 duration:0.086s]
+2025-04-18 14:38:47,934 INFO     516339 HEAD http://127.0.0.1:9200/ [status:200 duration:0.004s]
+2025-04-18 14:38:47,936 INFO     516339 Elasticsearch http://127.0.0.1:9200 is healthy.
+2025-04-18 14:38:47,947 WARNING  516339 Load term.freq FAIL!
+2025-04-18 14:38:47,956 WARNING  516339 Realtime synonym is disabled, since no redis connection.
+2025-04-18 14:38:47,966 WARNING  516339 Load term.freq FAIL!
+2025-04-18 14:38:47,973 WARNING  516339 Realtime synonym is disabled, since no redis connection.
+2025-04-18 14:38:47,974 INFO     516339 MAX_CONTENT_LENGTH: 134217728
+2025-04-18 14:38:47,974 INFO     516339 MAX_FILE_COUNT_PER_USER: 0
+2025-04-18 14:38:52,146 INFO     516339 init web data success:4.043076515197754
+WSGI app 0 (mountpoint='') ready in 29 seconds on interpreter 0x5bf29617c900 pid: 516339 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 516339)
+2025-04-18 14:38:52,154 INFO     516339 update_progress lock_value: 7623ff54-68e6-4718-86a0-6e0f938e2dc2
+spawned uWSGI worker 1 (pid: 516603, cores: 10)
+spawned uWSGI worker 2 (pid: 516604, cores: 10)
+spawned uWSGI http 1 (pid: 516605)

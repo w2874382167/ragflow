@@ -69,7 +69,7 @@ for arg in "$@"; do
 done
 
 CONF_DIR="/ragflow/conf"
-TEMPLATE_FILE="${CONF_DIR}/service_conf.yaml.template"
+TEMPLATE_FILE=/ragflow/docker/service_conf.yaml.template
 CONF_FILE="${CONF_DIR}/service_conf.yaml"
 
 rm -f "${CONF_FILE}"

@@ -5,7 +5,7 @@ import { ClickToComponent } from 'click-to-react-component';
 import React from 'react';
 
 const pathModifier = (path) => {
-  return path.startsWith('E:\ragflow\web') ? path : 'E:\ragflow\web/' + path;
+  return path.startsWith('/root/project/ragflow/web') ? path : '/root/project/ragflow/web/' + path;
 }
 
 export function rootContainer(container, opts) {

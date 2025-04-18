@@ -545,9 +545,10 @@ class OCR:
                                               local_dir_use_symlinks=False)
                 
                 if PARALLEL_DEVICES is not None:
-                    assert PARALLEL_DEVICES > 0, "Number of devices must be >= 1"
-                    self.text_detector = []
-                    self.text_recognizer = []
+                    # assert PARALLEL_DEVICES > 0, "Number of devices must be >= 1"
+                    print("���豸ģʽ")
+                    self.text_detector = [TextDetector(model_dir, 0)]
+                    self.text_recognizer = [TextRecognizer(model_dir, 0)]
                     for device_id in range(PARALLEL_DEVICES):
                         self.text_detector.append(TextDetector(model_dir, device_id))
                         self.text_recognizer.append(TextRecognizer(model_dir, device_id))

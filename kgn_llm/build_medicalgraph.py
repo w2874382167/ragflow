@@ -14,7 +14,7 @@ class MedicalGraph:
         self.data_path = os.path.join(cur_dir, 'data/medical.json')
         self.g = Graph(
             scheme="bolt",  # 使用 bolt 协议进行连接
-            host="127.0.0.1",  # neo4j 搭载服务器的ip地址，ifconfig可获取到
+            host="localhost",  # neo4j 搭载服务器的ip地址，ifconfig可获取到
             port=7687,  # neo4j 服务器监听的端口号
             user="neo4j",  # 数据库user name，如果没有更改过，应该是neo4j
             password="infini_rag_flow_neo4j")

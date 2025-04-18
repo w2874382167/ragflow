@@ -22,6 +22,8 @@ services:
       - cluster.routing.allocation.disk.watermark.flood_stage=2gb
       - TZ=${TIMEZONE}
     mem_limit: ${MEM_LIMIT}
+    networks:
+      - ragflow
     ulimits:
       memlock:
         soft: -1
@@ -31,8 +33,6 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
-    networks:
-      - ragflow
     restart: on-failure
 
   infinity:
@@ -49,6 +49,8 @@ services:
       - ${INFINITY_HTTP_PORT}:23820
       - ${INFINITY_PSQL_PORT}:5432
     env_file: .env
+    networks:
+      - ragflow
     environment:
       - TZ=${TIMEZONE}
     mem_limit: ${MEM_LIMIT}
@@ -56,8 +58,6 @@ services:
       nofile:
         soft: 500000
         hard: 500000
-    networks:
-      - ragflow
     healthcheck:
       test: ["CMD", "curl", "http://localhost:23820/admin/node/current"]
       interval: 10s
@@ -84,11 +84,11 @@ services:
       --binlog_expire_logs_seconds=604800
     ports:
       - ${MYSQL_PORT}:3306
+    networks:
+      - ragflow
     volumes:
       - mysql_data:/var/lib/mysql
       - ./init.sql:/data/application/init.sql
-    networks:
-      - ragflow
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-uroot", "-p${MYSQL_PASSWORD}"]
       interval: 10s
@@ -104,14 +104,14 @@ services:
       - ${MINIO_PORT}:9000
       - ${MINIO_CONSOLE_PORT}:9001
     env_file: .env
+    networks:
+      - ragflow
     environment:
       - MINIO_ROOT_USER=${MINIO_USER}
       - MINIO_ROOT_PASSWORD=${MINIO_PASSWORD}
       - TZ=${TIMEZONE}
     volumes:
       - minio_data:/data
-    networks:
-      - ragflow
     restart: on-failure
 
   redis:
@@ -120,36 +120,29 @@ services:
     container_name: ragflow-redis
     command: redis-server --requirepass ${REDIS_PASSWORD} --maxmemory 128mb --maxmemory-policy allkeys-lru
     env_file: .env
+    networks:
+      - ragflow
     ports:
       - ${REDIS_PORT}:6379
     volumes:
       - redis_data:/data
-    networks:
-      - ragflow
     restart: on-failure
 
-  neo4j:  # Neo4j 图数据库服务
-    image: neo4j:5.19.0  # 指定镜像版本
+  neo4j:
+    image: neo4j:latest
     container_name: ragflow-neo4j
-    volumes:
-      - neo4j_data:/data  # 数据持久化
-      - neo4j_logs:/logs  # 日志持久化
     ports:
-      - ${NEO4J_HTTP_PORT}:7474  # HTTP 管理界面端口（默认 7474）
-      - ${NEO4J_BOLT_PORT}:7687  # Bolt 协议端口（默认 7687）
-    env_file: .env
-    environment:
-      - NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWORD}  # 用户名和密码（格式：user/password）
-      - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes  # 接受许可协议
-      - TZ=${TIMEZONE}  # 时区
+      - "7474:7474"   # Neo4j 浏览器 HTTP
+      - "7687:7687"   # Bolt 协议
     networks:
-      - ragflow  # 连接到同一网络
-    healthcheck:  # 健康检查
-      test: ["CMD", "cypher-shell", "-u", "${NEO4J_USER}", "-p", "${NEO4J_PASSWORD}", "RETURN 1"]
-      interval: 10s
-      timeout: 10s
-      retries: 5
-    restart: on-failure  # 容器崩溃时自动重
+      - ragflow
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/var/lib/neo4j/import
+      - neo4j_plugins:/plugins
+    environment:
+      NEO4J_AUTH: neo4j/infini_rag_flow_neo4j
 
 volumes:
   esdata01:
@@ -166,7 +159,8 @@ volumes:
     driver: local
   neo4j_logs:
     driver: local
-
+  neo4j_import:
+  neo4j_plugins:
 networks:
   ragflow:
     driver: bridge

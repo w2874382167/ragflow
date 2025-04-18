@@ -73,7 +73,7 @@ export async function getRoutes() {
 '63': React.lazy(() => import(/* webpackChunkName: "p__profile-setting__plan__index" */'@/pages/profile-setting/plan/index.tsx')),
 '64': React.lazy(() => import(/* webpackChunkName: "p__profile-setting__model__index" */'@/pages/profile-setting/model/index.tsx')),
 '65': React.lazy(() => import(/* webpackChunkName: "p__profile-setting__prompt__index" */'@/pages/profile-setting/prompt/index.tsx')),
-'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'E:/ragflow/web/src/layouts/index.tsx')),
+'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/root/project/ragflow/web/src/layouts/index.tsx')),
 },
   };
 }

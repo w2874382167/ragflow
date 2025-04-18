@@ -27,7 +27,7 @@
         "src/.umi/*"
       ],
       "umi": [
-        "/home/zhuchen/Program/DaEr/ragflow/web/node_modules/umi"
+        "../../node_modules/umi"
       ],
       "umi/typings": [
         "src/.umi/typings"
