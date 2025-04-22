@@ -65,7 +65,7 @@ try:
     PARALLEL_DEVICES = torch.cuda.device_count()
     logging.info(f"found {PARALLEL_DEVICES} gpus")
 except Exception:
-    PARALLEL_DEVICES = 1
+    PARALLEL_DEVICES = 0
     logging.info("can't import package 'torch'")
 
 def print_rag_settings():
